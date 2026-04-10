@@ -1,6 +1,6 @@
-## Hi there 👋
 
-# 🧠 Santiago | QA Engineer & Clinical Psychologist
+
+# Santiago | QA Engineer & Clinical Psychologist
 
 > **"I don't just test code; I audit systems for resilience, security, and human-centric reliability."**
 
@@ -16,6 +16,11 @@ I am a **Clinical Psychologist** with over 10 years of experience in therapeutic
 | **Methodology** | Risk-Based Testing, Security Fuzzing, Contract Validation (FHIR/HL7) |
 | **Quality Ops** | Jira, GitHub, Root Cause Analysis (RCA) |
 | **Data** | JSON Schema Validation, Environment Architecture |
+
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
 ---
 
