@@ -7,14 +7,27 @@ I am a **Clinical Psychologist** with over 10 years of experience in therapeutic
 
 ---
 
-### ## 🛠️ The Technical Toolkit
+## ## 🛠️ Technical Ecosystem & Competencies
 
-| Category | Tools & Technologies |
-| :--- | :--- |
-| **Automation** | Postman (Advanced BDD), Newman, Python |
-| **Methodology** | Risk-Based Testing, Security Fuzzing, Contract Validation (FHIR/HL7) |
-| **Quality Ops** | Jira, GitHub, Root Cause Analysis (RCA) |
-| **Data** | JSON Schema Validation, Environment Architecture |
+### **Core Proficiencies**
+* **Test Automation:** Postman (Advanced BDD Snippets, Newman CLI, Environment-Driven Architecture).
+* **Web Technologies:** DOM Analysis, HTML5/CSS3 Validation, JavaScript for Test Logic.
+* **Languages:** JavaScript (ES6+), Markdown, JSON (Schema & Payload Validation).
+* **Next Frontiers:** Python & Selenium (Currently transitioning to Full-Stack Automation 🚀).
+
+### **Methodology & Quality Operations**
+* **Strategic Testing:** Risk-Based Testing (RBT), Security Fuzzing, and Exploratory Testing.
+* **Healthcare Domain:** Contract Validation (FHIR/HL7 standards) and Clinical Logic Audit.
+* **Infrastructure:** Jira (Defect Tracking), GitHub (Version Control), GitHub Actions (CI/CD Basics).
+
+| Category | Tools & Frameworks | Strategic Value |
+| :--- | :--- | :--- |
+| **API Testing** | Postman, Newman | Ensures contract compliance and cross-system data integrity. |
+| **Quality Ops** | Jira, GitHub, RCA | Streamlines the SDLC through clear traceability and reporting. |
+| **Logic/Data** | JSON Schema, SQL Basics | Validates system resilience against malformed or malicious inputs. |
+| **Frontend** | Chrome DevTools, VS Code | Facilitates deep-dive Root Cause Analysis (RCA) and UI validation. |
+
+> **Psychology-Driven QA:** My approach leverages a clinical perspective to predict user failure points and ensure system resilience under human-centric stress.
 
 ---
 
