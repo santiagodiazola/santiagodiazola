@@ -7,6 +7,42 @@ I am a **Clinical Psychologist** with over 10 years of experience in therapeutic
 
 ---
 
+## 🏛️ Engineering Mindset & Quality Systems
+> **“I apply a rigorous engineering mindset to build resilient, alive products—merging clinical behavioral analysis with technical system auditing to ensure total product integrity.” or "I approach Quality Assurance not just to find bugs, but to build resilient, alive products that provide real solutions through a clinical and technical lens."**
+
+### **# The Strategic Layer**
+| Domain | Expertise & Methodology |
+| :--- | :--- |
+| **Testing Philosophy** | [Rapid Software Testing](https://rapid-software-testing.com/) (RST) mindset focusing on Exploratory Testing and "Breaking the System" via Negative Scenarios. |
+| **Security & Resilience** | Utilizing **Security Fuzzing** and input sanitization audits to identify vulnerabilities and prevent unhandled server exceptions. |
+| **SDLC Mastery** | Full lifecycle integration: Requirements Analysis → Design/Planning → Execution → Deployment & Monitoring. |
+| **Human-System Interaction** | [Behavioral Analysis](https://en.wikipedia.org/wiki/Applied_behavior_analysis) and UX/Usability auditing to ensure products are resilient under human-centric stress. |
+
+### **# The Technical Toolkit (Direct Value)**
+
+* **[API Testing](https://www.postman.com/) (Postman & Newman):** Ensures contract compliance and data integrity through automated BDD snippets and environment-driven architecture.
+* **[Web Technologies](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model) (DOM Analysis & HTML/CSS):** Expertise in inspecting the Document Object Model (DOM) and validating frontend structure to ensure seamless element locators and UI integrity.
+* **[Frontend Analysis](https://developer.chrome.com/docs/devtools/) (DevTools & VS Code):** Facilitates deep-dive UI validation and technical troubleshooting at the DOM level for both Backend and Frontend.
+* **[Automation Roadmap](https://www.selenium.dev/) (Python & Selenium):** Currently transitioning to **Full-Stack Automation** to scale testing efficiency and build robust end-to-end test suites 🚀.
+* **[Healthcare Domain](https://www.hl7.org/fhir/overview.html) (FHIR/HL7 Standards):** Specialized in Contract Validation and Clinical Logic verification for high-stakes health-tech environments.
+* **[Logic & Data Validation](https://json-schema.org/) (JSON Schema & SQL):** Validates system resilience against malformed or malicious inputs by enforcing strict data structure audits.
+* **[Quality Operations](https://www.atlassian.com/software/jira) (Jira, Trello, TestRail):** Streamlines the SDLC through professional Root Cause Analysis (RCA), defect tracking, and clear traceability.
+* **[Infrastructure & CI/CD](https://github.com/features/actions) (GitHub & Actions):** Manages version control and basic pipeline integration to support continuous deployment and delivery.
+
+### **# Engineering Stack at a Glance**
+| Category | Tools & Technologies | Strategic Value |
+| :--- | :--- | :--- |
+| **Languages** | JavaScript (ES6+), Python, Markdown, SQL | Provides the programmatic foundation for advanced test logic and automation scripts. |
+| **Methods** | Agile, Scrum, Risk-Based Testing (RBT) | Optimizes team dynamics and ensures testing is prioritized by business and technical risk. |
+| **Collaboration** | Notion, Trello, AI-Assisted QA | **AI Collaboration** for test data generation, logic optimization, and documentation efficiency. |
+
+### **# Professional Outlook**
+* **Communication:** Fluent English (Professional Level).
+* **Location:** Remote-Ready / Global Collaboration.
+* **Goal:** Engineering resilience into software to survive the real-world complexity of the end-user journey.
+
+---
+
 ## ## 🛠️ Technical Ecosystem & Competencies
 
 ### **Core Proficiencies**
@@ -79,3 +115,128 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+
+---
+
+## 🧠 Psychology-Driven QA Approach
+
+My background in Clinical Psychology helps me approach testing from a different perspective.
+
+- I identify edge cases based on real user behavior  
+- I analyze how systems respond under stress or unexpected inputs  
+- I focus on data integrity where errors can have real-world impact  
+
+---
+
+## 🚀 Featured Project: [NHS PDS API Audit](https://github.com/santiagodiazola/nhs-pds-api-audit)
+
+A technical audit of a healthcare API based on FHIR standards.
+
+**Key Result:**
+
+- Identified a critical issue:
+  
+  **API returns 500 Internal Server Error instead of 400 for malformed input**
+
+**Why it matters:**
+
+- Indicates missing input validation  
+- Can lead to system instability or unexpected failures  
+
+**What I did:**
+
+- Executed functional, negative, and security test scenarios  
+- Tested edge cases including malformed JSON and invalid inputs  
+- Documented findings and proposed validation improvements  
+
+---
+
+## 🛠️ Technical Skills
+
+- 🔌 API Testing: [Postman](https://www.postman.com/) (collections, environments, pm.test)
+- 🌐 Web Analysis: [DOM & DevTools](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
+- ⚙️ Bug Tracking: [Jira](https://www.atlassian.com/software/jira)
+- 📊 Data Validation: [JSON Schema](https://json-schema.org/) (basic usage)
+- 🤖 Learning: [Selenium](https://www.selenium.dev/) + Python (in progress)
+
+---
+
+## 🧩 How I Work
+
+- Combine structured test cases with exploratory testing  
+- Focus on risk and real-world impact  
+- Validate not only expected behavior, but system responses to failure  
+
+---
+
+## 🎨 Outside QA
+
+- 🎸 Music (Jazz & Blues)
+- 🧶 Textile design (tufting)
+- 🏠 Airbnb host in Mendoza
+- ⚽ Argentine football fan
+
+
+---
+---
+---
+
+# ## 🏛️ SYSTEM ARCHITECTURE & QUALITY ENGINEERING
+> **“I apply a rigorous engineering mindset to build resilient, alive products—merging clinical behavioral analysis with technical system auditing to ensure total product integrity.”**
+
+<br/>
+
+## ## 🧠 The Psychology-Driven QA Edge
+* **Psychological Insight:** I specialize in predicting user failure points and identifying "edge cases" that stem from human behavior—finding the bugs that standard scripts miss.
+* **Systemic Thinking:** My experience in clinical institutions allows me to navigate complex architectures where data integrity is a matter of safety, not just "passing tests."
+* **Analytical Precision:** I bring a decade of professional observation and diagnosis to technical bug reporting and root cause investigation.
+
+<br/>
+
+## ## 🚀 Featured Project: [NHS PDS API Audit](https://github.com/santiagodiazola/nhs-pds-api-audit)
+**A comprehensive technical audit of the UK’s national patient data system.**
+
+* **Key Achievement:** Identified a critical **P1 Security Vulnerability** (500-level parser crash) via input sanitization fuzzing.
+* **Business Impact:** Documented a high-risk Denial of Service (DoS) vulnerability and provided remediation strategies for [FHIR-compliant](https://www.hl7.org/fhir/overview.html) validation middleware.
+* **Architecture:** Developed a decoupled Postman framework using collection-level inheritance and dynamic GUID traceability.
+
+<br/>
+
+## ## 🏗️ Technical Ecosystem & Competencies
+
+### **Strategic Governance**
+| Domain | Expertise & Methodology |
+| :--- | :--- |
+| **Testing Philosophy** | [Rapid Software Testing](https://rapid-software-testing.com/) (RST) mindset focusing on Exploratory Testing and "Breaking the System." |
+| **Security & Resilience** | Utilizing **Security Fuzzing** and input sanitization audits to prevent unhandled server exceptions. |
+| **Lifecycle Mastery** | Full SDLC integration: Requirements Analysis → Design/Planning → Execution → Deployment. |
+| **Human-System Interaction** | Behavioral Analysis and UX/Usability auditing to ensure resilience under human-centric stress. |
+
+<br/>
+
+### **Technical Execution**
+* **🌐 [Web Technologies](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model) (DOM Analysis & HTML/CSS):** Expert inspection of the Document Object Model to ensure seamless element locators and UI integrity.
+* **🔌 [API Testing](https://www.postman.com/) (Postman & Newman):** Advanced BDD snippets, environment-driven architecture, and automated contract compliance.
+* **🤖 [Automation Roadmap](https://www.selenium.dev/) (Python & Selenium):** Transitioning to **Full-Stack Automation** to scale end-to-end testing efficiency (Current Focus 🚀).
+* **⚙️ [Quality Ops](https://www.atlassian.com/software/jira) (Jira, GitHub, TestRail):** Streamlining the SDLC through professional Root Cause Analysis (RCA) and defect traceability.
+* **📊 [Data Validation](https://json-schema.org/) (JSON Schema & SQL):** Enforcing strict data structures to defend against malformed or malicious inputs.
+
+<br/>
+
+## ## 🎨 Outside the Terminal
+When I’m not auditing APIs or building test suites, you’ll find me:
+* 🎸 **Musician:** Playing Jazz and Blues on my Ibanez AF75.
+* 🧶 **Maker:** Tufting handmade rugs and exploring textile design.
+* 🏠 **Hospitality:** Managing an Airbnb in the mountains of Mendoza, Argentina.
+* ⚽ **Fan:** Following Argentine Soccer (Godoy Cruz & River Plate).
+
+<br/>
+
+## ## 📫 Let's Connect
+* **LinkedIn:** [linkedin.com/in/santiagodiazola](https://www.linkedin.com/in/santiagodiazola)
+* **Portfolio:** [Link to your Notion or Website]
+
+> *"Quality is a mindset, not a department."*
+
+---
