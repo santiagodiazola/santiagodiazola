@@ -5,7 +5,7 @@ I address this by applying a clinical perspective to the **Software Development 
 
 I transitioned from psychology into Quality Assurance to be a strategic partner within global engineering teams, promoting a culture of quality throughout the development journey. My mission is to **verify and validate** that the products we build don't just "pass tests," but truly solve user needs and provide a seamless, resilient experience for people worldwide.   
 
-I thrive in the structured world of **documentation**, risk-based planning, and test suite execution. I view a product’s codebase as a living system, and my background allows me to diagnose "systemic friction" before it ever reaches the end user. By merging technical tools like Postman and Playwright with a deep understanding of human-centric reliability, I ensure that software remains as robust as the people who depend on it.
+I thrive in the structured world of **documentation**, risk-based planning, and test suite execution. I view a product’s codebase as a living system, and my background allows me to diagnose "systemic friction" before it reaches the end user. By merging technical tools like Postman and Playwright with a deep understanding of human-centric reliability, I ensure that software remains as robust as the people who depend on it.
 
 ## Why "Behavioral Specialist" in Quality Engineering?
 
