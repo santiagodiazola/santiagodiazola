@@ -49,7 +49,7 @@ I thrive in the structured world of **documentation**, risk-based planning, and 
 
 ## ## 🎯 Technical Audits & Frameworks
 
-### **🏥 [NHS Patient Demographics Service (PDS) API Audit](https://github.com/santiagodiazola/nhs-pds-api-audit)**
+## **🏥 [NHS Patient Demographics Service (PDS) API Audit](https://github.com/santiagodiazola/nhs-pds-api-audit)**
 **Technical Audit of the UK’s [National Healthcare](https://www.england.nhs.uk/) Data Infrastructure.**
 
 * **The Challenge:** Assessing the resilience of a high-stakes API responsible for millions of patient records against non-standard "human-error" inputs and malformed data.
@@ -65,17 +65,18 @@ I thrive in the structured world of **documentation**, risk-based planning, and 
 ---
 
 ## **🏢 [Hilton Honors - End-to-End Web Quality Audit](https://github.com/santiagodiazola/hilton-mendoza-qa-audit)**
-**End-to-End Manual Validation of Global Reservation & i18n Workflows.**
+**Manual Validation of Global Reservation & i18n Workflows.**
 
 * **The Challenge:** Auditing complex booking logic and internationalization (i18n) across high-traffic hospitality endpoints to ensure global accessibility.
+* **Traceability & Rigor:** Managed 11+ high-priority cases using **Equivalence Partitioning** and **Boundary Value Analysis** (See Notion Suite above).
+* **Critical Finding (BUG-001):** Identified a terminal i18n blocker via **Network/Console Inspection** that prevented account creation for global users.
+* **Audit Architecture:**
+    * Managed the full test lifecycle (Design → Execution → Defect Logging) using **TestRail** and **Trello**.
+    * Developed a **Requirements Traceability Matrix** to ensure 100% coverage of core booking flows (Search, Reservation, and Authentication).
+    * Conducted **Heuristic Evaluation** and **Exploratory Testing** to identify logic gaps in guest capacity and session management.
 
-* **Key Achievement:** Identified a Critical i18n Blocker in the registration module that triggered a 400-level error when processing non-standard UTF-8 characters (e.g., "í"), preventing account creation for global users.
-
-* **Engineered Impact:** Reduced manual verification time by 80% through automated environment-driven data injection and environment-agnostic test scripts.
-
-* **Architecture:** Managed the full test lifecycle (Design -> Execution -> Defect Logging) using TestRail and Trello.
-Developed a Requirements Traceability Matrix to ensure 100% coverage of core booking flows (Search, Reservation, and Authentication).
-Conducted Boundary Value Analysis (BVA) and Exploratory Testing to identify logic gaps in guest capacity and session management.
+![Bug Evidence](https://github.com/santiagodiazola/hilton-mendoza-qa-audit/blob/main/evidence/Evidence%20BUG-001.png)
+*Console evidence showing a JavaScript execution failure in the registration module when processing non-standard UTF-8 characters (e.g., "í").*
 
 ---
 
@@ -104,7 +105,4 @@ When I’m not auditing APIs or building test suites, you’ll find me:
 
 > *Quality is a mindset, not a department.*
 
-
-
----
 ---
