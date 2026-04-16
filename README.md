@@ -1,7 +1,7 @@
 # QA Analyst | Behavioral Specialist
 
 Software is built by humans, and because human systems are inherently fallible, errors are inevitable. 
-I address this by applying a clinical perspective to the **Software Development Lifecycle (SDLC)**.”
+I address this by applying a clinical perspective to the **Software Development Lifecycle (SDLC)**.
 
 I transitioned from psychology into Quality Assurance to be a strategic partner within global engineering teams, promoting a culture of quality throughout the development journey. My mission is to **verify and validate** that the products we build don't just "pass tests," but truly solve user needs and provide a seamless, resilient experience for people worldwide.   
 
