@@ -69,7 +69,7 @@ I thrive in the structured world of **documentation**, risk-based planning, and 
 
 * **The Challenge:** Auditing complex booking logic and internationalization (i18n) across high-traffic hospitality endpoints to ensure global accessibility.
 * **Traceability & Rigor:** Managed 11+ high-priority cases using **Equivalence Partitioning** and **Boundary Value Analysis** (See Notion Suite above).
-* **Critical Finding (BUG-001):** Identified a terminal i18n blocker via **Network/Console Inspection** that prevented account creation for global users.
+* **[Critical Finding BUG-001](https://github.com/santiagodiazola/hilton-mendoza-qa-audit/blob/main/documentation/bug-report/BUG-001%20Registration%20Failure.pdf):** Identified a terminal i18n blocker via **Network/Console Inspection** that prevented account creation for global users.
 * **Audit Architecture:**
     * Managed the full test lifecycle (Design → Execution → Defect Logging) using **TestRail** and **Trello**.
     * Developed a **Requirements Traceability Matrix** to ensure 100% coverage of core booking flows (Search, Reservation, and Authentication).
