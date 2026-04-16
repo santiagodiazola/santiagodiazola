@@ -47,7 +47,7 @@ I thrive in the structured world of **documentation**, risk-based planning, and 
   
 ---
 
-## ## 🎯 Strategic Projects: Technical Audits & Frameworks
+## ## 🎯 Technical Audits & Frameworks
 
 ### **🏥 [NHS Patient Demographics Service (PDS) API Audit](https://github.com/santiagodiazola/nhs-pds-api-audit)**
 **Technical Audit of the UK’s [National Healthcare](https://www.england.nhs.uk/) Data Infrastructure.**
@@ -55,9 +55,13 @@ I thrive in the structured world of **documentation**, risk-based planning, and 
 * **The Challenge:** Assessing the resilience of a high-stakes API responsible for millions of patient records against non-standard "human-error" inputs and malformed data.
 * **Key Technical Achievement:** Identified a critical **P1 Security Vulnerability** (500-level Internal Server Error) through systematic **Input Sanitization Fuzzing**.
 * **Engineered Impact:** Mitigated potential **Denial of Service (DoS)** risks by providing remediation strategies for [FHIR-compliant](https://www.hl7.org/fhir/overview.html) validation middleware.
-* **Audit Architecture:** * Designed a decoupled **Postman/Newman framework** utilizing collection-level inheritance.
+* **Audit Architecture:** Designed a decoupled **Postman/Newman framework** utilizing collection-level inheritance.
     * Implemented **Dynamic GUID Traceability** to ensure 100% unique transaction auditability.
     * Automated **JSON Schema validation** to enforce strict contract compliance.
+ 
+  ![NHS PDS Postman Runner](https://github.com/santiagodiazola/nhs-pds-api-audit/blob/main/evidence/BUG-001.gif)
+
+  <br>
 
 ### **🏢 [Hilton API Functional Testing Suite](https://github.com/santiagodiazola/hilton-api-testing)**
 **End-to-End Validation of Global Reservation & Hospitality Workflows.**
