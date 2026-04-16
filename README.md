@@ -62,17 +62,20 @@ I thrive in the structured world of **documentation**, risk-based planning, and 
   ![NHS PDS Postman Runner](https://github.com/santiagodiazola/nhs-pds-api-audit/blob/main/evidence/BUG-001.gif)
 
   <br>
+---
 
-### **🏢 [Hilton API Functional Testing Suite](https://github.com/santiagodiazola/hilton-api-testing)**
-**End-to-End Validation of Global Reservation & Hospitality Workflows.**
+## **🏢 [Hilton Honors - End-to-End Web Quality Audit](https://github.com/santiagodiazola/hilton-mendoza-qa-audit)**
+**End-to-End Manual Validation of Global Reservation & i18n Workflows.**
 
-* **The Challenge:** Validating complex booking logic and state transitions across high-traffic hospitality endpoints.
-* **Key Achievement:** Developed a comprehensive **Regression Suite** ensuring 100% coverage of core booking flows (Search, Reservation, Cancellation).
+* **The Challenge:** Auditing complex booking logic and internationalization (i18n) across high-traffic hospitality endpoints to ensure global accessibility.
+
+* **Key Achievement:** Identified a Critical i18n Blocker in the registration module that triggered a 400-level error when processing non-standard UTF-8 characters (e.g., "í"), preventing account creation for global users.
+
 * **Engineered Impact:** Reduced manual verification time by 80% through automated environment-driven data injection and environment-agnostic test scripts.
-* **Architecture:**
-    * Leveraged **Behavior-Driven Development (BDD)** snippets for readable, stakeholder-ready assertions.
-    * Integrated **Traceability Matrices** to map technical requirements to test execution.
-    * Managed test data isolation through Postman environment variables for multi-region testing.
+
+* **Architecture:** Managed the full test lifecycle (Design -> Execution -> Defect Logging) using TestRail and Trello.
+Developed a Requirements Traceability Matrix to ensure 100% coverage of core booking flows (Search, Reservation, and Authentication).
+Conducted Boundary Value Analysis (BVA) and Exploratory Testing to identify logic gaps in guest capacity and session management.
 
 ---
 
