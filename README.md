@@ -1,10 +1,11 @@
 # QA Analyst & Behavioral Specialist
 
 Software is built by humans, and because human systems are inherently fallible, errors are inevitable. 
-I bridge this gap by applying a clinical perspective to the Software Development Lifecycle (SDLC).”
+I address this by applying a clinical perspective to the **Software Development Lifecycle (SDLC)**.”
 
-I transitioned into Quality Assurance to be a strategic partner within global engineering teams, promoting a culture of quality throughout the development journey. My mission is to ensure that the products we build don't just "pass tests," but truly solve user needs and provide a seamless, resilient experience for people worldwide.   
-I thrive in the structured world of documentation, risk-based planning, and test suite execution. I view a product’s codebase as a living system, and my background allows me to diagnose "systemic friction" before it ever reaches the end user. By merging technical tools like Postman and Playwright with a deep understanding of human-centric reliability, I ensure that software remains as robust as the people who depend on it.
+I transitioned from psychology into Quality Assurance to be a strategic partner within global engineering teams, promoting a culture of quality throughout the development journey. My mission is to **verify and validate** that the products we build don't just "pass tests," but truly solve user needs and provide a seamless, resilient experience for people worldwide.   
+
+I thrive in the structured world of **documentation**, risk-based planning, and test suite execution. I view a product’s codebase as a living system, and my background allows me to diagnose "systemic friction" before it ever reaches the end user. By merging technical tools like Postman and Playwright with a deep understanding of human-centric reliability, I ensure that software remains as robust as the people who depend on it.
 
 ## Why "Behavioral Specialist" in Quality Engineering?
 
@@ -14,7 +15,7 @@ I thrive in the structured world of documentation, risk-based planning, and test
 
 ---
 
-## ## Engineering Mindset & Quality Systems
+## ## 🏛️ Engineering Mindset & Quality Systems
 > **“A truly great product is defined by its resilience. I bridge the gap between human error and system integrity through rigorous, risk-based auditing.”**
 
 ### **Methodology & Governance**
@@ -41,17 +42,63 @@ I thrive in the structured world of documentation, risk-based planning, and test
 | **Languages** | JavaScript (ES6+), Markdown, JSON, SQL | Provides the programmatic foundation for advanced test logic and modern automation scripts. |
 | **Methods** | Agile, Scrum, Risk-Based Testing (RBT) | Optimizes team dynamics and ensures testing is prioritized by business and technical risk. |
 | **Collaboration** | Notion, Trello, AI-Assisted QA | Leverages **AI Collaboration** for test data generation, logic optimization, and documentation efficiency. |
+  
+---
 
+## ## 🎯 Strategic Projects: Technical Audits & Frameworks
+
+### **🏥 [NHS Patient Demographics Service (PDS) API Audit](https://github.com/santiagodiazola/nhs-pds-api-audit)**
+**Technical Audit of the UK’s National Healthcare Data Infrastructure.**
+
+* **The Challenge:** Assessing the resilience of a high-stakes API responsible for millions of patient records against non-standard "human-error" inputs and malformed data.
+* **Key Technical Achievement:** Identified a critical **P1 Security Vulnerability** (500-level Internal Server Error) through systematic **Input Sanitization Fuzzing**.
+* **Engineered Impact:** Mitigated potential **Denial of Service (DoS)** risks by providing remediation strategies for [FHIR-compliant](https://www.hl7.org/fhir/overview.html) validation middleware.
+* **Audit Architecture:** * Designed a decoupled **Postman/Newman framework** utilizing collection-level inheritance.
+    * Implemented **Dynamic GUID Traceability** to ensure 100% unique transaction auditability.
+    * Automated **JSON Schema validation** to enforce strict contract compliance.
+
+<br/>
+
+### **🏨 [Hilton API Functional Testing Suite](https://github.com/santiagodiazola/hilton-api-testing)**
+**End-to-End Validation of Global Reservation & Hospitality Workflows.**
+
+* **The Challenge:** Validating complex booking logic and state transitions across high-traffic hospitality endpoints.
+* **Key Achievement:** Developed a comprehensive **Regression Suite** ensuring 100% coverage of core booking flows (Search, Reservation, Cancellation).
+* **Engineered Impact:** Reduced manual verification time by 80% through automated environment-driven data injection and environment-agnostic test scripts.
+* **Architecture:**
+    * Leveraged **Behavior-Driven Development (BDD)** snippets for readable, stakeholder-ready assertions.
+    * Integrated **Traceability Matrices** to map technical requirements to test execution.
+    * Managed test data isolation through Postman environment variables for multi-region testing.
+
+---
+
+---
+
+### ## 🚀 Featured Project: NHS PDS API Audit
+**[View Project Repository](https://github.com/your-username/nhs-pds-api-audit)**
+
+A comprehensive audit of the UK’s national patient data system.
+* **Key Achievement:** Identified a critical **P1 security vulnerability** (500-level parser crash) using input sanitization fuzzing.
+* **Impact:** Documented a potential Denial of Service (DoS) risk and provided remediation strategies for FHIR-compliant validation middleware.
+* **Architecture:** Developed a decoupled Postman framework using collection-level inheritance and dynamic GUID traceability.
+
+
+---
 ### **Professional Outlook**
 * **Communication:** Fluent English (Professional Level).
 * **Location:** Remote-Ready / Global Collaboration.
 * **Goal:** Engineering resilience into software to survive the real-world complexity of the end-user journey.
-  
 ---
 ---
 ---
 ---
----
+
+
+
+
+
+
+
 # QA Engineer & Clinical Psychologist
 
 > **"I don't just test code; I audit systems for resilience, security, and human-centric reliability."**
