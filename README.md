@@ -7,12 +7,6 @@ I transitioned from psychology into Quality Assurance to be a strategic partner 
 
 I thrive in the structured world of **documentation**, risk-based planning, and test suite execution. Viewing a product's codebase as a living system allows me to diagnose systemic friction before it reaches the end user. By merging technical tools like Postman and Playwright with a deep understanding of human-centric reliability, I ensure that software remains as robust as the people who depend on it.
 
-## Why "Behavioral Specialist" in Quality Engineering?
-
-* **Predictive Failure Analysis:** Just as I identified clinical risks in institutional settings, I use **Behavioral Analysis** to predict where a user will encounter friction. This allows me to identify critical "edge cases" that standard automated scripts often miss.
-* **Root Cause Integrity:** In healthcare, a documentation error has serious consequences. I treat every bug report with that same level of rigor, performing deep **Root Cause Analysis (RCA)** to ensure the systemic failure is resolved, not just the "symptom" on the UI.
-* **Human-Centric Reliability:** I understand that users of medical portals are often in high-stress states. My goal is to ensure software remains **stable and intuitive** exactly when the user needs it most, ensuring data integrity is treated as a matter of safety.
-
 ---
 
 ## ## 🏛️ Engineering Mindset & Quality Systems
