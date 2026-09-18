@@ -5,97 +5,89 @@ I address this by applying a clinical perspective to the **Software Development 
 
 I transitioned from psychology into Quality Assurance to be a strategic partner within global engineering teams, promoting a culture of quality throughout the development journey. My mission is to **verify and validate** that the products we build don't just "pass tests," but truly solve user needs and provide a seamless, resilient experience for people worldwide.   
 
-I thrive in the structured world of **documentation**, risk-based planning, and test suite execution. Viewing a product's codebase as a living system allows me to diagnose systemic friction before it reaches the end user. By merging technical tools like Postman and Playwright with a deep understanding of human-centric reliability, I ensure that software remains as robust as the people who depend on it.
+By merging technical tools like **Playwright, TypeScript, Postman, Java, and Selenium** with a deep understanding of human-centric reliability, I ensure that software remains as robust as the people who depend on it.
 
 ---
 
-## ## 🏛️ Engineering Mindset & Quality Systems
-> **“A truly great product is defined by its resilience. I bridge the gap between human error and system integrity through rigorous, risk-based auditing.”**
+## **🚀 Featured QA Engineering Projects**
 
-### **Methodology & Governance**
-| Domain | Expertise & Methodology |
-| :--- | :--- |
-| **Testing Philosophy** | [Rapid Software Testing](https://rapid-software-testing.com/) (RST) mindset focusing on Exploratory Testing and "Breaking the System" via Negative Scenarios. |
-| **Security & Resilience** | Utilizing **Security Fuzzing** and input sanitization audits to identify vulnerabilities and prevent unhandled server exceptions. |
-| **SDLC Mastery** | Full lifecycle integration: Requirements Analysis → Design/Planning → Execution → Deployment & Monitoring. |
-| **Human-System Interaction** | [Behavioral Analysis](https://en.wikipedia.org/wiki/Applied_behavior_analysis) and UX/Usability auditing to ensure products are resilient under human-centric stress. |
+*A comprehensive portfolio demonstrating cross-stack automation, API auditing, and enterprise-grade test architecture.*
 
-### **Testing Ecosystem & Integration**
+## **🏥 OpenEMR Clinical Platform Automation**
 
-* ** [Web Technologies](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model) (DOM Analysis & HTML/CSS):** Expertise in inspecting the Document Object Model (DOM) and validating frontend structure to ensure seamless element locators and UI integrity.
-* ** [API Testing](https://www.postman.com/) (Postman & Newman):** Ensures contract compliance and data integrity through automated BDD snippets and environment-driven architecture.
-* ** [Automation Roadmap](https://playwright.dev/) (Playwright & JavaScript):** Currently scaling into **Full-Stack Automation** using Playwright for high-speed, resilient end-to-end test suites (Current Focus 🚀).
-* ** [Healthcare Domain](https://www.hl7.org/fhir/overview.html) (FHIR/HL7 Standards):** Specialized in Contract Validation and Clinical Logic verification for high-stakes health-tech environments.
-* ** [Logic & Data Validation](https://json-schema.org/) (JSON Schema & SQL):** Validates system resilience against malformed or malicious inputs by enforcing strict data structure audits.
-* ** [Quality Operations](https://www.atlassian.com/software/jira) (Jira, Trello, TestRail):** Streamlines the SDLC through professional Root Cause Analysis (RCA), defect tracking, and clear traceability.
-* ** [Infrastructure & CI/CD](https://github.com/features/actions) (GitHub & Actions):** Manages version control and basic pipeline integration to support continuous deployment and delivery.
+![OpenEMR Success Case](https://raw.githubusercontent.com/santiagodiazola/openemr-playwright-automation/main/evidence/auth.spec.gif)
 
-### **Core Competency Matrix**
-| Category | Tools & Technologies | Strategic Value |
-| :--- | :--- | :--- |
-| **Languages** | JavaScript (ES6+), Markdown, JSON, SQL | Provides the programmatic foundation for advanced test logic and modern automation scripts. |
-| **Methods** | Agile, Scrum, Risk-Based Testing (RBT) | Optimizes team dynamics and ensures testing is prioritized by business and technical risk. |
-| **Collaboration** | Notion, Trello, AI-Assisted QA | Leverages **AI Collaboration** for test data generation, logic optimization, and documentation efficiency. |
+* **Tech Stack:** TypeScript, Playwright, Page Object Model (POM), `frameLocator`.
+* **Overview:** End-to-end automated test suite built for OpenEMR (an open-source Electronic Medical Record system). 
+* **Key Achievement:** Successfully solved legacy architectural complexities by utilizing Playwright's `frameLocator` to handle nested iframes in clinical modules, securing a 100% pass rate across functional and security negative suites.
 
-<br>
-  
----
+## **⚙️ OrangeHRM Enterprise Automation Framework**
 
-## ## 🎯 Technical Audits & Frameworks
+![OrangeHRM Test Execution Success](https://raw.githubusercontent.com/santiagodiazola/orangehrm-bdd-automation/main/evidence/orangehrm-execution.png)
 
-## **🏥 [NHS Patient Demographics Service (PDS) API Audit](https://github.com/santiagodiazola/nhs-pds-api-audit)**
-**Technical Audit of the UK’s [National Healthcare](https://www.england.nhs.uk/) Data Infrastructure.**
+* **Tech Stack:** Java, Selenium, Cucumber (BDD), Page Object Model (POM).
+* **Overview:** Behavior-Driven Development (BDD) automation framework designed for enterprise human resource management workflows.
+* **Key Achievement:** Implemented clean abstraction layers using POM and Gherkin syntax to mirror real-world business requirements into maintainable, automated regression suites with visual execution proof.
 
-* **The Challenge:** Assessing the resilience of a high-stakes API responsible for millions of patient records against non-standard "human-error" inputs and malformed data.
-* **Key Technical Achievement:** Identified a critical **P1 Security Vulnerability** (500-level Internal Server Error) through systematic **Input Sanitization Fuzzing**.
-* **Engineered Impact:** Mitigated potential **Denial of Service (DoS)** risks by providing remediation strategies for [FHIR-compliant](https://www.hl7.org/fhir/overview.html) validation middleware.
-* **Audit Architecture:** Designed a decoupled **Postman/Newman framework** utilizing collection-level inheritance.
-    * Implemented **Dynamic GUID Traceability** to ensure 100% unique transaction auditability.
-    * Automated **JSON Schema validation** to enforce strict contract compliance.
- 
-  ![NHS PDS Postman Runner](https://github.com/santiagodiazola/nhs-pds-api-audit/blob/main/evidence/BUG-001.gif)
+### **3. 🏥 NHS Patient Demographics Service (PDS) API Audit**
 
-  <br>
----
+![NHS API Audit Showcase](https://raw.githubusercontent.com/santiagodiazola/nhs-pds-api-audit/main/evidence/BUG-001.gif)
 
-## **🏢 [Hilton Honors - End-to-End Web Quality Audit](https://github.com/santiagodiazola/hilton-mendoza-qa-audit)**
-**Manual Validation of Global Reservation & i18n Workflows.**
+* **Tech Stack:** Postman, Newman, JavaScript, JSON Schema, FHIR/HL7 Standards.
+* **Overview:** Technical audit and API validation framework for the UK’s national healthcare data infrastructure.
+* **Sandbox Environment Observation:** The mock server's PATCH routing layer encounters an exception when processing unexpected operation types in TC-PDS-10, returning a 500 Internal Server Error instead of a controlled 400 Bad Request and FHIR OperationOutcome. This reflects a known limitation of the static sandbox mock layer rather than a production vulnerability. 
 
-* **The Challenge:** Auditing complex booking logic and internationalization (i18n) across high-traffic hospitality endpoints to ensure global accessibility.
-* **Traceability & Rigor:** Managed 11+ high-priority cases using **Equivalence Partitioning** and **Boundary Value Analysis** (See Notion Suite above).
-* **[Critical Finding BUG-001](https://github.com/santiagodiazola/hilton-mendoza-qa-audit/blob/main/documentation/bug-report/BUG-001%20Registration%20Failure.pdf):** Identified a terminal i18n blocker via **Network/Console Inspection** that prevented account creation for global users.
-* **Audit Architecture:**
-    * Managed the full test lifecycle (Design → Execution → Defect Logging) using **[TestRail](https://github.com/santiagodiazola/hilton-mendoza-qa-audit/blob/main/documentation/TestRail/Hilton_Honors_QA_Audit_Summary_Report_Santiago_Diaz.pdf)** and **[Trello](https://trello.com/b/OpY0J1nf/qa-portfolio-bug-tracking)**.
-    * Developed a **Requirements Traceability Matrix** to ensure 100% coverage of core booking flows (Search, Reservation, and Authentication).
-    * Conducted **Heuristic Evaluation** and **Exploratory Testing** to identify logic gaps in guest capacity and session management.
+### **4. 🏨 Hilton Honors - Exploratory QA & Functional Audit**
 
 ![Bug Evidence](https://github.com/santiagodiazola/hilton-mendoza-qa-audit/blob/main/evidence/Evidence%20BUG-001.png)
-*Console evidence showing a JavaScript execution failure in the registration module when processing non-standard UTF-8 characters (e.g., "í").*
+
+* **Tech Stack:** Chrome DevTools, TestRail, Trello, Network/Console Inspection.
+* **Overview:** Comprehensive manual exploratory quality audit targeting complex reservation flows, global internationalization (i18n), and client-side error handling across high-traffic hospitality endpoints.
+* **Key Achievement:** Pinpointed and isolated critical client-side bottlenecks using **Chrome DevTools Network and Console inspection**, catching unhandled character encoding faults and broken global registration states before production deployment.
 
 ---
 
-### ##👨🏻‍💻 Professional Outlook
+## **🏛️ Engineering Mindset & Quality Systems**
 
-* **Communication:** Fluent English (Professional Level).
-* **Location:** Remote-Ready / Global Collaboration.
+> *"A truly great product is defined by its resilience. I bridge the gap between human error and system integrity through rigorous, risk-based auditing."*
+
+* **Rapid Software Testing (RST):** Exploratory testing and breaking systems via targeted negative scenarios.
+* **SDLC Mastery:** Full lifecycle integration from requirements analysis to deployment pipeline readiness.
+
+---
+
+## **🛠️ Testing Ecosystem & Technical Stack**
+
+| Category | Tools & Technologies | Strategic Value |
+| :--- | :--- | :--- |
+| **Automation** | Playwright, Selenium, TypeScript, JavaScript, Java | Builds resilient, high-speed E2E regression suites. |
+| **API & Data** | Postman, Newman, JSON Schema, SQL, FHIR/HL7 | Validates contract compliance and resilience against malformed inputs. |
+| **BDD & Design** | Cucumber, Gherkin, Page Object Model (POM) | Aligns business requirements with scalable, maintainable test architectures. |
+| **Quality Ops** | Jira, Trello, TestRail, GitHub Actions | Streamlines SDLC traceability, defect tracking, and CI/CD pipelines. |
+
+---
+
+## **👨🏻‍💻 Professional Outlook**
+* **Communication:** Fluent English (Professional Level) & Native Spanish.
+* **Location:** Remote-Ready / Global Collaboration (Based in Mendoza, Argentina).
 * **Goal:** Engineering resilience into software to survive the real-world complexity of the end-user journey.
 
 ---
 
-### ## 🎨 Outside the Terminal
-
+## **🎨 Outside the Terminal**
 When I’m not auditing APIs or building test suites, you’ll find me:
-* 🎸 Playing **Jazz and Blues** on my Ibanez AF75.
-* 🧶 **Tufting** handmade rugs and exploring textile design.
-* 🏠 Managing an **Airbnb** in the mountains of Mendoza, Argentina.
-* ⚽ Following **Argentine Soccer** (Godoy Cruz & River Plate).
+* 🎸 Playing Jazz and Blues on my Ibanez AF75.
+* 🧶 Tufting handmade rugs and exploring textile design.
+* 🏠 Managing an Airbnb in the mountains of Mendoza, Argentina.
+* ⚽ Following Argentine Soccer (Godoy Cruz & River Plate).
 
 ---
 
-### ## 📫 Let's Connect
-* **LinkedIn:** www.linkedin.com/in/santiagodiazola
+## **📫 Let's Connect**
+* **LinkedIn:** [santiagodiazola](https://www.linkedin.com/in/santiagodiazola)
+* **GitHub:** [github.com/santiagodiazola](https://github.com/santiagodiazola)
 
-* **Portfolio:** [Link to your Notion or Website]
+
 
 > *Quality is a mindset, not a department.*
 
