@@ -87,8 +87,3 @@ When I’m not auditing APIs or building test suites, you’ll find me:
 * **LinkedIn:** [santiagodiazola](https://www.linkedin.com/in/santiagodiazola)
 * **GitHub:** [github.com/santiagodiazola](https://github.com/santiagodiazola)
 
-
-
-> *Quality is a mindset, not a department.*
-
----
