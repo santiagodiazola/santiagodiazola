@@ -20,7 +20,7 @@ By merging technical tools like **Playwright, TypeScript, Postman, Java, and Sel
 * **Tech Stack:** TypeScript, Playwright, Page Object Model (POM), `frameLocator`.
 * **Overview:** End-to-end automated test suite built for OpenEMR (an open-source Electronic Medical Record system). 
 * **Key Achievement:** Successfully solved legacy architectural complexities by utilizing Playwright's `frameLocator` to handle nested iframes in clinical modules, securing a 100% pass rate across functional and security negative suites.
-
+---
 ## **⚙️ OrangeHRM Enterprise Automation Framework**
 
 ![OrangeHRM Test Execution Success](https://raw.githubusercontent.com/santiagodiazola/orangehrm-bdd-automation/main/evidence/orangehrm-execution.png)
@@ -28,22 +28,32 @@ By merging technical tools like **Playwright, TypeScript, Postman, Java, and Sel
 * **Tech Stack:** Java, Selenium, Cucumber (BDD), Page Object Model (POM).
 * **Overview:** Behavior-Driven Development (BDD) automation framework designed for enterprise human resource management workflows.
 * **Key Achievement:** Implemented clean abstraction layers using POM and Gherkin syntax to mirror real-world business requirements into maintainable, automated regression suites with visual execution proof.
-
-### **3. 🏥 NHS Patient Demographics Service (PDS) API Audit**
+---
+### **🏥 NHS Patient Demographics Service (PDS) API Audit**
 
 ![NHS API Audit Showcase](https://raw.githubusercontent.com/santiagodiazola/nhs-pds-api-audit/main/evidence/BUG-001.gif)
 
 * **Tech Stack:** Postman, Newman, JavaScript, JSON Schema, FHIR/HL7 Standards.
 * **Overview:** Technical audit and API validation framework for the UK’s national healthcare data infrastructure.
 * **Sandbox Environment Observation:** The mock server's PATCH routing layer encounters an exception when processing unexpected operation types in TC-PDS-10, returning a 500 Internal Server Error instead of a controlled 400 Bad Request and FHIR OperationOutcome. This reflects a known limitation of the static sandbox mock layer rather than a production vulnerability. 
-
-### **4. 🏨 Hilton Honors - Exploratory QA & Functional Audit**
+---
+### **🏨 Hilton Honors - Exploratory QA & Functional Audit**
 
 ![Bug Evidence](https://github.com/santiagodiazola/hilton-mendoza-qa-audit/blob/main/evidence/Evidence%20BUG-001.png)
 
 * **Tech Stack:** Chrome DevTools, TestRail, Trello, Network/Console Inspection.
 * **Overview:** Comprehensive manual exploratory quality audit targeting complex reservation flows, global internationalization (i18n), and client-side error handling across high-traffic hospitality endpoints.
 * **Key Achievement:** Pinpointed and isolated critical client-side bottlenecks using **Chrome DevTools Network and Console inspection**, catching unhandled character encoding faults and broken global registration states before production deployment.
+---
+### **🎓 Academy & Practical QA Artifacts**
+
+*A collection of rigorous technical assessments, end-to-end automation test suites, and requirements analysis deliverables completed through intensive professional training.*
+
+* **🤖 AI-Augmented QA & Metamorphic Testing (`ai-augmented-qa-training`):** Explores modern QA paradigms, including GenAI-assisted workflows, prompt reviewing, bug generation analysis, and tackling the test oracle problem via Metamorphic Testing frameworks.
+* **⚡ Playwright & TypeScript API Automation (`pet-pw-api-tests`):** End-to-end API test suite integrated directly with **GitLab CI/CD pipelines**, featuring automated schema validation and helper architecture.
+* **📋 QA Governance & Test Design (`santiagodiazola-qa-homeworks`):** Structured foundational deliverables covering **Requirements Analysis** (CSV traceability matrices), SQL data validation, mobile testing workflows, and issue tracking methodologies.
+
+📌 **Explore my full codebases and pipelines on GitLab:** [gitlab.com/santiagodiazola](https://gitlab.com/santiagodiazola)
 
 ---
 
