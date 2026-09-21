@@ -1,4 +1,4 @@
-# Psychologist & Software Quality Assurance
+# Software Quality Assurance Engineer
 
 Software is built by humans, and because human systems are inherently fallible, errors are inevitable. 
 I address this by applying a clinical perspective to the **Software Development Lifecycle (SDLC)**.
